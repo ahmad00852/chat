@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421685826074",
+    "project_id": "messageme-app-b5d1a",
+    "storage_bucket": "messageme-app-b5d1a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421685826074:android:286fd8e15ef143b88137a3",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjL5gPD4_JIki2QKEZXAMph4dYLFku6Ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
