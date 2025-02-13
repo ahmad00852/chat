@@ -74,7 +74,7 @@ class _SignInScreenState extends State<SignInScreen> {
             MyButton(color: Colors.yellow[900]!, title: 'Sign in', onPressed: () async{
               try {
                 final user= await _auth.signInWithEmailAndPassword(email: emailController.text, password: passwordController.text);
-                Navigator.pushNamed(context, ChatScreen.screenRoute);
+                Navigator.pushReplacementNamed(context, ChatScreen.screenRoute);
 
               }catch (e) {
                 print(e);
